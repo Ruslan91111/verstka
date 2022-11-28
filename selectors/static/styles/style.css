@@ -1,0 +1,17 @@
+
+.main {
+	background-color: aqua;
+}
+
+.border-div {
+	border-style: solid;
+}
+
+.main.border-div {
+	background-color: green;
+	border-style: dotted !important;
+} 
+
+.main p {
+	font-size: 35px;
+}
