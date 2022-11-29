@@ -3,6 +3,7 @@
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: repeat(1);
+	background-color: #C6C7D4;
 }
 
 .left-bar {
@@ -23,6 +24,17 @@
 
 }
 
+.left-bar p, 
+.right-bar p {
+	margin: 1em;
+	padding: 1em;
+	border-style: solid;
+	border-width: 0.5px;
+	color: #2E2574;
+	border-color: #2E2574;
+
+
+}
 
 
 
