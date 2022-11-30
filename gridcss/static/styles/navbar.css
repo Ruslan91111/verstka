@@ -39,4 +39,20 @@
     .nav-list {
         display: none;
     }
+
+    .nav-btn:hover {
+        background-color: #BDBEC6;
+
+    }
+
+    .drop:hover .nav-list {
+        display: block;
+        position: absolute;
+        right: 1px;
+        background-color: #4D4646;
+    }
+    .navbar {
+        justify-content: space-between;
+    }
+
 }
