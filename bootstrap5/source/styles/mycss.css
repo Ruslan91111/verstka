@@ -39,14 +39,28 @@ body {
 }
 
 
-.slide-text {
+
+.slide-text,
+.footer-text {
 	color: black;
 	margin: auto auto;
+}
+
+
+footer {
+background: linear-gradient(90deg, #1A7D0A 0%, #30E023 100%);
+}
+
+
+.media-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 @madia (max-width: 755px) {
 	.carousel-indicators {
 		display: none;
-		
+
 	}
 }
