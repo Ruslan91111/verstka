@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Ledger&display=swap');
+
+
 body {
-background: linear-gradient(90deg, #2DC356 0%, #14C5B6 100%);}
+	font-family: Ledger, serif;
+	background: linear-gradient(90deg, #2DC356 0%, #14C5B6 100%);
+}
 
 .navbar-brand img {
 	width: 35px;
@@ -19,6 +24,18 @@ background: linear-gradient(90deg, #2DC356 0%, #14C5B6 100%);}
 
 .sidebar {
 	color: yellow;
+	background: linear-gradient(270deg, #2DC356 0%, #14C5B6 100%);
+}
+
+.card {
+	background: linear-gradient(270deg, #B0F740 0%, #1BF21B 50%);
+	color: black;
+}
+
+
+.card a {
+	text-decoration: none;
+	color: black;
 }
 
 
